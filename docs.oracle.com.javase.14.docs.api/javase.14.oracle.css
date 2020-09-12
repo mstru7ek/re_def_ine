@@ -1,0 +1,65 @@
+/** 
+ *  For website: https://docs.oracle.com/en/java/javase/14/docs/api/
+ *
+ */
+
+
+
+body {
+  background-color: rgba(213, 235, 236, 0.637);
+}
+
+.topNav {
+    background-color: rgba(19, 37, 49, 0.829);
+}
+
+.flexBox {
+  align-items: center;
+  background-color: #255e67;
+}
+
+.flexContent {
+    width: 70%;
+    background-color: #a0c7ba;
+}
+
+code  a, span a {
+
+  color: rgb(28, 78, 28);
+  font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+}
+
+h3 {
+  color: rgb(17, 165, 153);
+}
+
+.inheritedList, section[class$="Details"] .detail {
+    
+    background-color: #829fbb46;
+}
+
+span.memberName {
+  font-weight: bold;
+}
+
+.overviewSummary caption span, .memberSummary caption span, .typeSummary caption span, .useSummary caption span, .constantsSummary caption span, .deprecatedSummary caption span, .requiresSummary caption span, .packagesSummary caption span, .providesSummary caption span, .usesSummary caption span, .systemPropertiesSummary caption span {
+  background-color: rgb(222, 207, 224);
+}
+
+
+.overviewSummary [role=tablist] .activeTableTab, .memberSummary [role=tablist] .activeTableTab, .typeSummary [role=tablist] .activeTableTab, .packagesSummary [role=tablist] .activeTableTab {
+     background-color: rgb(222, 207, 224);
+ 
+}
+
+.navBarCell1Rev {
+    background-color: rgb(17, 227, 255);
+}
+
+* {
+  font-family: "Source Code Pro", "Monaco", "Ubuntu Mono Regular", "Lucida Console", monospace;
+}
